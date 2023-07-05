@@ -8,27 +8,27 @@
 </head>
 <body>
     <div class="screen">
-        <div class="leftside">
+        <!-- <div class="leftside">
             <img src="../imagens/login.jpg" alt="">
-        </div>
+        </div> -->
         <div class="rightside">
             <h1>Crie uma conta</h1>
-            <form method="post">
+            <form method="post" action="cadastro.php" class="b7validator">
                 <label for="">
                     Seu nome: <br>
-                    <input type="text" name="name" id="">
+                    <input type="text" name="name" id="" data-rules="required|min=2">
                 </label>
                 <label for="">
                     Seu E-mail: <br>
-                    <input type="email" name="email" id="">
+                    <input type="email" name="email" id="" data-rules="required|email">
                 </label>
                 <label for="">
                     Sua Senha: <br>
-                    <input type="password" name="password" id="">
+                    <input type="password" name="password" id="" data-rules="required|min=4">
                 </label>
 
                 <label for="">
-                    <input type="submit" value="Cadastre-se">
+                    <input type="submit" value="Cadastre-se" id="btn">
                 </label>
             </form>
             <div>
@@ -36,5 +36,8 @@
             </div>
         </div>
     </div>
+
+
+    <script src="../js/script.js"></script>
 </body>
 </html>

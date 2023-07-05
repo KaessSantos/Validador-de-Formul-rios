@@ -5,8 +5,13 @@
 }
 
 .screen{
+    /* display: flex;
+    height: 100vh; */
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-color: #b4a8a841;
 }
 
 .leftside{
@@ -20,6 +25,7 @@
     width: 400px;
     background-color: #999;
     padding: 50px;
+    border-radius: 10px;
 }
 
 
@@ -44,4 +50,17 @@ label{
     font-size: 14px;
     outline: 0;
     width: 100%;
+}
+
+#btn{
+    cursor: pointer;
+}
+
+
+.error{
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 5px;
 }
