@@ -1,7 +1,5 @@
  # Validação de Formulários 
  <h1 align="center">Formulário de Cadastro</h1>
- # <a href="https://kaesssantos.github.io/Validador-de-Formul-rios/">Projeto</a>
-
  <p>
     <img alt="Formulário" src="imagens/img_github.png" width="100%">
  </p>
