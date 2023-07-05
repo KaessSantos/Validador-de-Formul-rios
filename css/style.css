@@ -5,8 +5,6 @@
 }
 
 .screen{
-    /* display: flex;
-    height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,9 +32,6 @@ max-width: 500px;
 height: auto;
 }
 
-form{
-    
-}
 
 label{
     display: block;
