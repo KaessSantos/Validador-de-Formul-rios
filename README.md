@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  # Validação de Formulários 
  <h1 align="center">Formulário de Cadastro</h1>
  <p>
@@ -20,3 +21,6 @@
  ## :memo: Licença 
 
  Esse projeto está sobre a licença MIT.
+=======
+
+>>>>>>> f38d59b6d89c140adb282c1b27b7aa38ea3b6396
